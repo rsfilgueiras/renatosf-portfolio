@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Brand Brain & AI Briefing — Renato Filgueiras</title>
+  <meta name="description" content="Rebuilding briefing processes at Superside with an AI-powered brand system." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200..900&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200..900&display=swap" /></noscript>
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/project-nav.js" defer></script>
+</head>
+<body class="page-project theme-brand-brain">
+
+  <header class="header">
+    <a href="../index.html" class="brand" aria-label="Renato Filgueiras, home"><span class="text-logo">RF</span></a>
+    <nav class="nav-menu" aria-label="Main">
+      <a href="../index.html#work" class="nav-link">Work</a>
+      <a href="#" class="nav-link">Playground</a>
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="https://www.linkedin.com/in/renatosf/" target="_blank" rel="noopener" class="nav-link">LinkedIn</a>
+      <a href="#" class="nav-link">Resume</a>
+    </nav>
+  </header>
+
+  <section class="project-hero">
+    <span class="project-hero-bg" aria-hidden="true"></span>
+    <div class="project-hero-content">
+    <h1 class="project-hero-title">Brand Brain &amp; AI Briefing</h1>
+    <dl class="project-hero-meta">
+        <div><dt class="visually-hidden">Company</dt><dd>Superside</dd></div>
+        <div><dt class="visually-hidden">Years</dt><dd>2025 – 2026</dd></div>
+        <div><dt class="visually-hidden">Role</dt><dd>Senior Product Designer</dd></div>
+        <div><dt class="visually-hidden">Location</dt><dd>Remote</dd></div>
+    </dl>
+    </div>
+  </section>
+
+  <p class="project-highlight">This is a placeholder for the project highlight. It will summarize the most important outcome of the case in a few sentences, so visitors grasp the essence before diving into the details. Replace it with a short, confident statement about the problem, the role, and the result that mattered most.</p>
+
+  <section class="case-gallery" aria-hidden="true">
+    <div class="case-gallery-item case-gallery-item--wide"></div>
+    <div class="case-gallery-row">
+      <div class="case-gallery-item"></div>
+      <div class="case-gallery-item"></div>
+    </div>
+  </section>
+
+  <div class="cover-image-wrapper">
+    <img src="../images/brand-brain-cover.jpg" alt="Brand Brain & AI Briefing cover" />
+  </div>
+
+  <main class="prose">
+
+    <div class="tldr">
+      <h4>TL;DR</h4>
+      <ul>
+        <li>Superside's briefs were complete, but not personalized: customers still had to repeat themselves on every project.</li>
+        <li>Rather than build a personalization tool outright, the team shipped a generic AI briefing tool first to prove the direction, then invested in Brand Brain, a customer knowledge layer, once usage data validated it.</li>
+        <li>The core design bet was trust: every generated brief shows its sources and flags what the AI didn't know, instead of guessing, and skips the chat box entirely in favor of guided, structured input.</li>
+        <li>I pushed for that trust-first direction and the shift away from open conversation, then partnered with our PM and engineering to ship the full system.</li>
+        <li>Result: 45% adoption within a year, an 80% faster time-to-start, and Brand Brain became Superside's biggest selling proposition.</li>
+      </ul>
+    </div>
+
+    <h2>Problem</h2>
+    <p>Starting from the recently launched <a href="service-catalog.html">Service Catalog</a>, which was a huge step towards information-rich briefs, we saw that it was only the tip of the iceberg. Even though briefs started to arrive as complete, ready-to-execute documents, we were still hearing from customers about things to improve:</p>
+    <ul>
+      <li>They still needed to repeat themselves on every project. They expected our Project Managers and Creatives to know about the brand and recurrent work, acting more proactively and autonomously.</li>
+      <li>Filling out forms, specifically for more complex projects, was still a friction point. Writing briefs from scratch or adapting briefs written outside of the platform to our forms demanded extra effort, and sometimes it was still easier to talk to Superside's Project Managers and get their assistance.</li>
+    </ul>
+
+    <h2>Goals</h2>
+    <p>This context felt like the perfect opportunity to introduce our first set of AI tools, and position the business as an AI-first company following the emergence of a new era in technology, business, and products.</p>
+    <p>As AI became a serious conversation inside the company, closing that gap called for two stages:</p>
+    <ol>
+      <li>First, a generative briefing tool that could get something customer-facing into the market quickly and surface real usage patterns; this solution would already solve the friction to start, enabling users to review a generated text instead of starting from scratch.</li>
+      <li>Then, a customer knowledge layer that let generation grow out of the data that first stage revealed. This aimed to solve the customization issue, and briefs would take into consideration past projects, brand guidelines, and workflow preferences.</li>
+    </ol>
+    <p>The team started with the generative tool, treating it as the fastest way to learn what personalization actually needed to account for.</p>
+
+    <h2>Solution</h2>
+    <p>AI Briefing doubled down on what the <a href="service-catalog.html">Service Catalog</a> and custom brief forms started to solve: the blank canvas anxiety was gone. Customer interviews conducted prior to and after the launch, along with usage data, proved this was the right direction. From simple and not-so-structured prompts, it was possible to generate an entire brief ready for final edits and submission.</p>
+    <p>Brand Brain, a knowledge database that contained historic information from customers in multiple categories, came to aggregate even more, not only generating highly customized briefs and serving as context for multiple AI tools yet to come, like on-brand asset generation (Brand Models), but also becoming the biggest selling proposition of the business.</p>
+
+    <figure><img src="../images/brand-brain-01-fast.webp" alt="AI briefing prompt screen" /></figure>
+
+    <h2>Where the design work lived</h2>
+    <p>Advocating for trust to surface in the interface was the core of this work. Brand Brain itself is AI-first infrastructure: a knowledge base built for agents to query. Users could also browse the system and participate in its governance because transparency was another aspect defined as trust building. Brand Brain's most important surface isn't a UI of its own. It's wherever the knowledge base is being queried and used. I pushed for every generated brief to highlight each piece of text alongside its source, whether that's Brand Brain and its categories, or the original request written in the prompt, and to flag the gaps AI intentionally left ungenerated to avoid hallucinating, requiring a human to fill them in instead.</p>
+
+    <p><strong>Sourcing, not guessing.</strong> Every piece of generated content in a brief links back to where it came from: a past project, a stated preference, a brand guideline. Both the customer requesting the brief and the Creatives executing it can see the reasoning, not just the output.</p>
+
+    <figure><img src="../images/brand-brain-02-source-highlight.png" alt="Brief editor showing source highlighting" /></figure>
+
+    <p><strong>Surfacing gaps instead of filling them.</strong> When the system didn't have enough signal to generate a field with confidence, it said so, explicitly, rather than filling the blank with a plausible guess. A flagged gap costs a few seconds of human input. A confident hallucination costs a misdirected project and an unhappy customer. This became a hard design principle for the team, not a fallback.</p>
+
+    <figure><img src="../images/brand-brain-03-gap-highlight.png" alt="Brief editor showing gap highlighting" /></figure>
+
+    <p><strong>A workspace, not a black box.</strong> Once a brief is generated, the customer lands in a collaborative document to fill remaining gaps, comment, and refine alongside their team, rather than treating the AI's output as final.</p>
+
+    <figure><img src="../images/brand-brain-04-comments.png" alt="Brief editor showing comments" /></figure>
+
+    <p><strong>Speed over conversation.</strong> Every AI interface defaults to a chat box, but what we found in user interviews was that users didn't want a conversation. A quick first draft, ready for editing, sharing, and collaborating had much more value. Even viewing gaps earlier inside the brief structure was something more important, because briefers could flag them for teammates to fill in. Chats were not shareable, while the brief itself was. With Brand Brain already holding rich context on each customer, most of what a chat would need to ask to clarify was already known, making back-and-forth largely unnecessary.</p>
+
+    <p><strong>Push against chat conversations.</strong> A chat interface only slowed things down: more reading, more typing, more waiting for the right prompt to land. So the product lets users add context (past projects, references, people to tag) through direct, structured actions instead of prose, skipping straight to a usable draft. The chat still exists as an orchestrator underneath, routing requests to the right flow, but it's not where the user does the work of specifying intent.</p>
+
+    <p>Intentionality creates trust, because it's deliberate. In brief writing, that means choosing what to include and what to leave out. In an AI-generated brief, it means choosing the right context to start from. Briefs became trustworthy not only because they were complete, but because every choice behind them had a source, or was flagged for a human to review.</p>
+
+    <h2>Trade-offs and Learnings</h2>
+    <p>Starting with a generic brief generator instead of a knowledge system that could empower the existing forms, rather than building an entirely new tool, was a bold move. AI Briefing was decided as a proof of concept first. It gave real indications that this was the right direction, but the real value turned out to be in the knowledge base itself.</p>
+    <p>This project tested my ability to negotiate and adapt. In the end, I worked the full cycle, partnering closely with our Product Manager and engineering to help ship the system that went on to become Superside's most important selling proposition, and the foundation new products and teams were later built on.</p>
+
+  </main>
+
+  <section class="results">
+    <h2 class="section-heading">Results</h2>
+    <div class="results-grid">
+      <p class="result-item">45% of active customers within the first year</p>
+      <p class="result-item">Up to 80% faster to generate project drafts</p>
+      <p class="result-item">Brand Brain as the main selling proposition in 2026</p>
+      <p class="result-item">Brand Brain enabled the creation of new products</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="gallery-grid">
+      <img src="../images/brand-brain-05-drawer.png" alt="AI brief drawer" />
+      <img src="../images/brand-brain-06-empty-prompt.png" alt="Start page with empty prompt" />
+      <img src="../images/brand-brain-07-prompt-filled.png" alt="Start page with prompt filled" />
+    </div>
+  </section>
+
+  <section class="more-projects">
+    <h2 class="section-heading">More projects</h2>
+    <div class="project-grid">
+      <a href="service-catalog.html" class="project-card">
+        <div class="project-cover"><img src="../images/cover-service-catalog.png" alt="Service catalog cover" loading="lazy" /></div>
+        <div class="project-title">Service catalog for custom briefs</div>
+        <div class="project-description">Redesigning how customers request projects with service-specific brief forms.</div>
+        <div class="company-tag"><span class="company-tag-text">Superside</span></div>
+      </a>
+      <a href="portocred.html" class="project-card">
+        <div class="project-cover"><img src="../images/cover-portocred.png" alt="Portocred cover" loading="lazy" /></div>
+        <div class="project-title">Digital experience for personal loans</div>
+        <div class="project-description">Modernizing a legacy lender's digital presence with a scalable design system.</div>
+        <div class="company-tag"><span class="company-tag-text">Portocred</span></div>
+      </a>
+      <a href="c6-bank.html" class="project-card">
+        <div class="project-cover"><img src="../images/cover-c6-bank.png" alt="C6 Bank cover" loading="lazy" /></div>
+        <div class="project-title">Banking for business accounts</div>
+        <div class="project-description">Launching business banking from the ground up with a platform built to scale.</div>
+        <div class="company-tag"><span class="company-tag-text">C6 Bank</span></div>
+      </a>
+      <a href="mobly.html" class="project-card">
+        <div class="project-cover"><img src="../images/cover-mobly.png" alt="Mobly cover" loading="lazy" /></div>
+        <div class="project-title">Furniture and decor online store</div>
+        <div class="project-description">Reimagining online furniture shopping with AR product placement and richer product pages.</div>
+        <div class="company-tag"><span class="company-tag-text">Mobly</span></div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <a href="https://www.linkedin.com/in/renatosf/" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+    <div class="footer-text">Renato Filgueiras — Online Portfolio</div>
+  </footer>
+
+</body>
+</html>

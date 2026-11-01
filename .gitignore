@@ -1,0 +1,6 @@
+# Private / local-only files, never publish
+kb-draft/
+.claude/
+
+# macOS
+.DS_Store
